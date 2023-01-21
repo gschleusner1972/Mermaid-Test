@@ -11,3 +11,19 @@ classDiagram
     classM ..|> classN : Realization
     classO .. classP : Link(Dashed)
 ```
+```mermaid
+---
+title: Example Git diagram
+---
+gitGraph
+   commit
+   commit
+   branch develop
+   checkout develop
+   commit
+   commit
+   checkout main
+   merge develop
+   commit
+   commit
+```
