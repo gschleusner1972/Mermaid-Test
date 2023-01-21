@@ -1,5 +1,7 @@
 # Mermaid-Test
 
+https://mermaid.js.org/syntax/gantt.html
+
 ```mermaid
 classDiagram
     classA --|> classB : Inheritance
