@@ -1,10 +1,6 @@
 # Mermaid-Test
 
 ```mermaid
-graph TD;
-    Entity-->Component;
-    Entity-->Relationship;
-    Relationship-->Component;
 classDiagram
     classA --|> classB : Inheritance
     classC --* classD : Composition
