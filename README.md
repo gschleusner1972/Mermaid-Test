@@ -1,7 +1,15 @@
 # Mermaid-Test
 
 https://mermaid.js.org/syntax/gantt.html
-
+```mermaid
+---
+title: Order example
+---
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
 ```mermaid
 classDiagram
     classA --|> classB : Inheritance
